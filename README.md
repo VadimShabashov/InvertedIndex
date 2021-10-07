@@ -2,6 +2,7 @@
 
 ## This repository provides functionality for the construction of the Inverted Index of an arbitrary document. By passing the words into the program, a user will be able to search and highlight the found words in the text.
 
+
 ### Example of the working code:
 
 1. Compilation of the program:
@@ -36,5 +37,6 @@ Highlighting doesn't work properly, since, for example, the word "cat" in "cats"
 
 
 
+## Original version:
 
 This is a modified version of the (https://medium.com/@fro_g/writing-a-simple-inverted-index-in-python-3c8bcb52169a)
