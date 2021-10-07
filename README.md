@@ -10,23 +10,30 @@
 $ python3 main.py
 ```
 
-3. One will be offered to pass the file name:
+3. One will be offered to pass names of the files:
 
 ```
-Enter name of the file: И. И. ЛЕВИТАН - ЧЕХОВУ.txt
+Enter file names: 1.txt 7.txt
 ```
 
-There Inverted Index was constructed for the document.
+There Inverted Index was constructed for the provided documents.
 
 3. Finally, one will be offered to pass the words:
 
 ```
-Enter term(s) to search: Парижа
+Enter term(s) to search: книгоиздательство
 ```
 
 The text, containing these words, will be displayed with the words highlighted.
 
-![Alt text](/../<branch name>/path/to/image.png?raw=true "Optional Title")
+![Alt text](example.png?raw=true "Optional Title")
+
+
+
+## Things to revise:
+
+Highlighting doesn't work properly, since, for example, the word "cat" in "cats" will be highlighted, which is not expected behavior.
+
 
 
 
